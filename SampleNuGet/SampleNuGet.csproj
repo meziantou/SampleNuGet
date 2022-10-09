@@ -8,7 +8,7 @@
 
     <Authors>Gérald Barré</Authors>
     <Description>A long description to explain your package</Description>
-    <PackageProjectUrl>https://www.meziantou.net/publishing-a-good-nuget-package-using-github-actions.htm</PackageProjectUrl>
+    <PackageProjectUrl>https://www.meziantou.net/publishing-a-nuget-package-following-best-practices-using-github.htm</PackageProjectUrl>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <PackageIcon>icon.png</PackageIcon>
