@@ -14,6 +14,9 @@
 
     <!-- A list of tags to help the search engine to understand the content of the package -->
     <PackageTags>sample, library</PackageTags>
+    <GenerateDocumentationFile>True</GenerateDocumentationFile>
+
+    <NoWarn>$(NoWarn);CS1591</NoWarn>
   </PropertyGroup>
 
   <ItemGroup>
@@ -23,8 +26,8 @@
         - Recommended dimensions: 128x128
         - Maximum size: 1MB
     -->
-    <None Include="icon.png" Pack="true" PackagePath=""/>
-    <None Include="README.md" Pack="true" PackagePath=""/>
+    <None Include="icon.png" Pack="true" PackagePath="" />
+    <None Include="README.md" Pack="true" PackagePath="" />
   </ItemGroup>
 
   <ItemGroup>
