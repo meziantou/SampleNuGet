@@ -8,9 +8,10 @@
 
     <Authors>Gérald Barré</Authors>
     <Description>A long description to explain your package</Description>
-    <ProjectUrl>https://www.meziantou.net/publishing-a-good-nuget-package-using-github-actions.htm</ProjectUrl>
+    <PackageProjectUrl>https://www.meziantou.net/publishing-a-good-nuget-package-using-github-actions.htm</PackageProjectUrl>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageIcon>icon.png</PackageIcon>
 
     <!-- A list of tags to help the search engine to understand the content of the package -->
     <PackageTags>sample, library</PackageTags>
