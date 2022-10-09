@@ -1,9 +1,37 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>net7.0</TargetFramework>
+    <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <PackageId>Meziantou.SampleNuGet</PackageId>
+
+    <Authors>Gérald Barré</Authors>
+    <Description>A long description to explain your package</Description>
+    <ProjectUrl>https://www.meziantou.net/publishing-a-good-nuget-package-using-github-actions.htm</ProjectUrl>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+
+    <!-- A list of tags to help the search engine to understand the content of the package -->
+    <PackageTags>sample, library</PackageTags>
   </PropertyGroup>
+
+  <ItemGroup>
+    <!--
+        Add an icon.png next to the csproj:
+        - Supported format: png, jpg
+        - Recommended dimensions: 128x128
+        - Maximum size: 1MB
+    -->
+    <None Include="icon.png" Pack="true" PackagePath=""/>
+    <None Include="README.md" Pack="true" PackagePath=""/>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="DotNet.ReproducibleBuilds" Version="1.1.1">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+  </ItemGroup>
 
 </Project>

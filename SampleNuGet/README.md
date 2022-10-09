@@ -1,0 +1,1 @@
+This is a sample package. More info at <https://www.meziantou.net/publishing-a-good-nuget-package-using-github-actions.htm>
